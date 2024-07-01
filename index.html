@@ -5,210 +5,206 @@
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-    <head>
-        <title>OT Construction</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-        <style>
-			#intro {
-				background-image: url(images/ot9.jpg);
-				background-size: cover;
-				background-position: center;
-				height: 100vh; 
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				color: white;
-				text-align: center;
-				position: relative; /* Add position relative for absolute positioning */
-			}
-		
-			/* Black overlay */
-			#intro::before {
-				content: "";
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-				background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (last value) as needed */
-				z-index: 1; /* Ensure it's above the background image */
-			}
-		
-			#intro .intro-content {
-				position: relative; /* Ensure text is above the overlay */
-				z-index: 2; /* Ensure text is above the overlay */
-			}
-		
-			#intro h1 {
-				font-size: 4em;
-				margin: 0;
-			}
-		
-			#intro p {
-				font-weight: bold; /* Adjust font-weight as needed */
-			}
-		
-			#about,
-			#gallery,
-			#contact {
-				padding: 4em 2em;
-				z-index: 3; /* Ensure content is above overlay */
-				position: relative; /* Ensure content is above overlay */
-			}
-		
-			#gallery .image-grid {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 1em;
-			}
-		
-			#gallery .image-grid img {
-				width: calc(33.333% - 1em);
-				height: auto;
-			}
-		
-			#contact .split {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2em;
-			}
-		
-			#contact .split > section {
-				flex: 1;
-				min-width: 200px;
-			}
-		</style>
-		
-    </head>
-    <body class="is-preload">
+<head>
+    <title>OT Construction</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        #intro {
+            background-image: url(images/ot9.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            position: relative; /* Add position relative for absolute positioning */
+        }
 
-        <!-- Wrapper -->
-        <div id="wrapper" class="fade-in">
+        /* Black overlay */
+        #intro::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (last value) as needed */
+            z-index: 1; /* Ensure it's above the background image */
+        }
 
- <!-- Intro -->
-<div id="intro">
-    <div class="intro-content">
-        <h1>Welcome to<br />OT Construction</h1>
-        <p>Building your dreams with quality and precision</p>
-        <ul class="actions">
-            <li><a href="#about" class="button icon solid solo fa-arrow-down scrolly">Learn More</a></li>
-        </ul>
+        #intro .intro-content {
+            position: relative; /* Ensure text is above the overlay */
+            z-index: 2; /* Ensure text is above the overlay */
+        }
+
+        #intro h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+
+        #intro p {
+            font-weight: bold; /* Adjust font-weight as needed */
+        }
+
+        #about,
+        #gallery,
+        #contact {
+            padding: 4em 2em;
+            z-index: 3; /* Ensure content is above overlay */
+            position: relative; /* Ensure content is above overlay */
+        }
+
+        #gallery .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+
+        #gallery .image-grid img {
+            width: calc(33.333% - 1em);
+            height: auto;
+        }
+
+        #contact .split {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+        }
+
+        #contact .split > section {
+            flex: 1;
+            min-width: 200px;
+        }
+    </style>
+
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
+
+    <!-- Intro -->
+    <div id="intro">
+        <div class="intro-content">
+            <h1>Welcome to<br />OT Construction</h1>
+            <p>Building your dreams with quality and precision</p>
+            <ul class="actions">
+                <li><a href="#about" class="button icon solid solo fa-arrow-down scrolly">Learn More</a></li>
+            </ul>
+        </div>
     </div>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">OT Construction</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="links">
+            <li class="active"><a href="#intro">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="https://www.facebook.com/OTPLASTERERS" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- About Us -->
+        <section id="about">
+            <header class="major">
+                <h2>About Us</h2>
+            </header>
+            <p>Established in 1998, OT Construction has been a leading specialist in plastering services with over 20 years of experience in the residential construction industry. Our expertise extends beyond plastering; we undertake a wide range of building and renovation projects, ensuring high-quality results on every job.</p>
+
+            <p>Our dedicated team delivers exceptional craftsmanship, no matter the size or complexity of the task. We pride ourselves on our commitment to excellence, reliability, and customer satisfaction. Over the years, we've built a solid reputation for our meticulous attention to detail and our ability to complete projects on time and within budget.</p>
+
+            <p>We serve homeowners all over the UK, providing personalized services tailored to meet the unique needs of each project. From interior refurbishments to complete home renovations, OT Construction is your trusted partner for all your residential construction needs.</p>
+
+            <p>Contact us today for a no-obligation quote and discover how our experienced team can bring your vision to life. Whether you're looking to refurbish your home, develop a new extension, or require specialist plastering, OT Construction has the skills and experience to deliver outstanding results.</p>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery">
+            <header class="major">
+                <h2>Our Projects</h2>
+            </header>
+            <div class="image-grid">
+                <img src="ot1.jpg" alt="Project 1" />
+                <img src="ot2.jpg" alt="Project 2" />
+                <img src="ot3.jpg" alt="Project 3" />
+                <img src="ot4.jpg" alt="Project 4" />
+                <img src="ot5.jpg" alt="Project 5" />
+                <img src="ot6.jpg" alt="Project 6" />
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <header class="major">
+                <h2>Contact Us</h2>
+            </header>
+            <div class="opening-hours">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            </div>
+            <form method="post" action="#">
+                <div class="split contact">
+                    <section class="alt">
+                        <h3>Address</h3>
+                        <p>Waterloo,<br />London, <br /> United Kingdom.</p>
+                    </section>
+                    <section>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+1234567890">07507163202</a></p>
+                    </section>
+                    <section>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@otconstruction.com">info@otconstruction.com</a></p>
+                    </section>
+                    <section>
+                        <h3>Social</h3>
+                        <ul class="icons alt">
+                            <li><a href="https://www.facebook.com/OTPLASTERERS" class="icon brands alt fa-facebook-f"><span class="label">Facebook/</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+            </form>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div id="copyright">
+            <ul><li>&copy; OT Construction</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+        </div>
+    </footer>
+
 </div>
 
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
-
-            <!-- Header -->
-            <header id="header">
-                <a href="index.html" class="logo">OT Construction</a>
-            </header>
-
-			<nav id="nav">
-				<ul class="links">
-					<li class="active"><a href="#intro">Home</a></li>
-					<li><a href="#about">About Us</a></li>
-					<li><a href="#gallery">Gallery</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-				<ul class="icons">
-					<li><a href="https://www.facebook.com/OTPLASTERERS" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				</ul>
-			</nav>
-
-            <!-- Main -->
-            <div id="main">
-
-                <!-- About Us -->
-                <section id="about">
-                    <header class="major">
-                        <h2>About Us</h2>
-                    </header>
-                    <p>Established in 1998, OT Construction has been a leading specialist in plastering services with over 20 years of experience in the residential construction industry. Our expertise extends beyond plastering; we undertake a wide range of building and renovation projects, ensuring high-quality results on every job.</p>
-
-                    <p>Our dedicated team delivers exceptional craftsmanship, no matter the size or complexity of the task. We pride ourselves on our commitment to excellence, reliability, and customer satisfaction. Over the years, we've built a solid reputation for our meticulous attention to detail and our ability to complete projects on time and within budget.</p>
-                    
-                    <p>We serve homeowners all over the UK, providing personalized services tailored to meet the unique needs of each project. From interior refurbishments to complete home renovations, OT Construction is your trusted partner for all your residential construction needs.</p>
-                    
-                    <p>Contact us today for a no-obligation quote and discover how our experienced team can bring your vision to life. Whether you're looking to refurbish your home, develop a new extension, or require specialist plastering, OT Construction has the skills and experience to deliver outstanding results.</p>
-                </section>
-
-               <!-- Gallery -->
-<section id="gallery">
-    <header class="major">
-        <h2>Our Projects</h2>
-    </header>
-    <div class="image-grid">
-        <img src="images/ot1.jpg" alt="Project 1" />
-        <img src="images/ot2.jpg" alt="Project 2" />
-        <img src="images/ot3.jpg" alt="Project 3" />
-        <img src="images/ot4.jpg" alt="Project 4" />
-        <img src="images/ot5.jpg" alt="Project 5" />
-        <img src="images/ot6.jpg" alt="Project 6" />
-    </div>
-</section>
-
-
-                <!-- Contact -->
-
-<section id="contact">
-    <header class="major">
-        <h2>Contact Us</h2>
-    </header>
-    <div class="opening-hours">
-        <h3>Opening Hours</h3>
-        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
-    </div>
-    <form method="post" action="#">
-       
-                    <div class="split contact">
-                        <section class="alt">
-                            <h3>Address</h3>
-                            <p>Waterloo,<br />London, <br /> United Kingdom.</p>
-                        </section>
-                        <section>
-                            <h3>Phone</h3>
-                            <p><a href="tel:+1234567890">07507163202</a></p>
-                        </section>
-                        <section>
-                            <h3>Email</h3>
-                            <p><a href="mailto:info@otconstruction.com">info@otconstruction.com</a></p>
-                        </section>
-                        <section>
-                            <h3>Social</h3>
-                            <ul class="icons alt">
-                                
-                                <li><a href="https://www.facebook.com/OTPLASTERERS" class="icon brands alt fa-facebook-f"><span class="label">Facebook/</span></a></li>
-                                
-                            </ul>
-                        </section>
-                    </div>
-                </section>
-
-            </div>
-
-            <!-- Footer -->
-            <footer id="footer">
-                <div id="copyright">
-                    <ul><li>&copy; OT Construction</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-                </div>
-            </footer>
-
-        </div>
-
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrollex.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
-
-    </body>
+</body>
 </html>
+
 
 
 
